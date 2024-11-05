@@ -1,0 +1,83 @@
+/* Container styling */
+div {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styling */
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+h2 {
+  color: #333;
+  margin-top: 20px;
+}
+
+/* Input styling */
+label {
+  font-weight: bold;
+}
+
+input[type="number"] {
+  padding: 10px;
+  margin: 10px 0;
+  width: 50px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Button styling */
+button {
+  padding: 10px 15px;
+  background-color: #28a745; /* Green */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #218838; /* Darker green */
+}
+
+/* Seat availability styling */
+.seats-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 0;
+}
+
+.seats-container div {
+  display: inline-block;
+  width: 150px; /* Set a width for the seat display */
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
+}
+
+/* Reserved seats display */
+.booked {
+  background-color: red; /* Color for booked seats */
+  color: white;
+}
+
+.available {
+  background-color: green; /* Color for available seats */
+  color: white;
+}
+
+/* Reserved seats text */
+p {
+  font-weight: bold;
+  color: #007bff; /* Blue color for reserved seats */
+}
